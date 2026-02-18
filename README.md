@@ -35,6 +35,11 @@ Open API docs:
 
 ## API Endpoints
 
+### 0) Service root (helpful for browser checks)
+```bash
+curl -s http://127.0.0.1:8000/
+```
+
 ### 1) Health check
 ```bash
 curl -s http://127.0.0.1:8000/health
